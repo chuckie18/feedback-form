@@ -1,0 +1,128 @@
+
+.close {
+  display:flex;
+  justify-content:flex-end;
+  height: 60px;
+}
+.feedback-form {
+  display: none;
+    background-color: white;
+    position: fixed;
+    /* border: 1px solid black; */
+    width: 961px;
+    top: 50px;
+    left: 350px;
+    /* height: 500px; */
+    z-index: 200;
+  /* display:none;
+  border: 1px solid black;
+  width: 961px;
+  margin-top: 50px;  
+  margin-left: 350px; */
+  /* height:500px; */
+}
+.input {
+  width:961px;
+  /* height: 80px; */
+}
+.input-label {
+
+}
+/* p {
+  margin-left: 90px;
+} */
+.input-text {
+  /* width: 780px;
+  height: 80px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-text-field {
+  width: 780px;
+  height: 80px;
+}
+.button-container {
+  display:flex;
+  justify-content:start;
+  width:961px;
+  height: 180px;
+}
+.button {
+  width: 480px;
+  height: 180px;
+}
+.submit {
+  display:flex;
+  justify-content:start;
+  width: 390px;
+  height: 180px;
+}
+.clear-btn {
+  text-decoration: underline;
+  font-family: 'Akrobat';
+  margin-top: 40px;
+  margin-left:90px;
+  height: 70px;
+  width: 260px;
+  background-color: white;
+  font-size: 36px;
+  color: black;
+}
+.sub {
+  font-family: 'Akrobat';
+  margin-top: 40px;
+  margin-left:130px;
+  height: 70px;
+  width: 260px;
+  background-color: #000000;
+  font-size: 36px;
+  color: white;
+}
+.gray {
+    position: fixed;
+    width:100%;
+    height:100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(1,1,1,0.75);
+    display: none;
+    z-index: 100;
+  
+}
+.alert {
+  display:none;
+  position: fixed;
+  top: 65px;
+  left: 720px;
+  background-color: white;
+  display: none;
+  z-index: 120;
+}
+
+#alert {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.label {
+  margin-left: 90px;
+}
+.input-error {
+  /* display:none; */
+  margin-left: 90px;
+  color: red;
+  font-size: 13px;
+}
+
+#close {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.input-empty {
+  border: 2px solid red;
+}
